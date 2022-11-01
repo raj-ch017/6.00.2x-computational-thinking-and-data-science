@@ -1,1 +1,5 @@
-# 6.00.2x-computational-thinking-and-data-science
+<h1>
+<p align = 'center'>
+Computational Thinking and Data Science
+</p>
+</h1>
