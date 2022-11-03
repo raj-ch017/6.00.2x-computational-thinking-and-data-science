@@ -64,6 +64,7 @@ def greedy_cow_transport(cows,limit=10):
       """
             Input:      dictionary containing string of names as keys and integer values
             Output:     dictionary containing integer values as keys and list of string names as values
+      """            
         rd = {}
         vl = []
     
