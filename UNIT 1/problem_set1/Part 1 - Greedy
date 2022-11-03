@@ -60,7 +60,10 @@ def greedy_cow_transport(cows,limit=10):
     transported on a particular trip and the overall list containing all the
     trips
     """
-    def swap_it(a_dict):
+    def swap_it(a_dict):                  # helper function 1 - returns a new dict by swapping key-value pairs of input dictionary
+      """
+            Input:      dictionary containing string of names as keys and integer values
+            Output:     dictionary containing integer values as keys and list of string names as values
         rd = {}
         vl = []
     
@@ -89,10 +92,9 @@ def greedy_cow_transport(cows,limit=10):
     while (len(new_dict) != 0):
 
         while (current_wt <= limit):
-            #val = max(val_list)
             diff = limit - current_wt
 
-            def find_val(val_list,m):
+            def find_val(val_list,m):                 # helper function 2 - helps in finding the appropriate largest value
                 
                 flag = True
                 i = 0
